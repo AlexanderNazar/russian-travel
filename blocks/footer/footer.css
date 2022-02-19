@@ -1,0 +1,6 @@
+.footer {
+    padding: 64px 0 24px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
