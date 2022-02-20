@@ -1,5 +1,20 @@
 .lead__image {
-    width: 100vw;
+    width: calc(100% + 32px);
     position: relative;
     left: -16px;
 }
+
+@media (min-width: 767px) {
+    .lead__image {
+        width: calc(100% + 48px);
+        position: relative;
+        left: -24px;
+        }
+  }
+
+  @media (min-width: 1023px) {
+    .lead__image {
+        width: 100%;
+        position: static;
+        }
+  }

@@ -8,3 +8,9 @@
     color: #AAAAAA;
     ;
 }
+
+@media (min-width: 767px) {
+    .place__websit_url-heading {
+        align-self: start;
+    }
+  }

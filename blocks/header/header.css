@@ -6,3 +6,16 @@
     padding-bottom: 48px;
     justify-content: space-between;
 }
+
+@media (min-width: 767px) {
+    .header {
+        height: 52px;
+        padding-top: 28px;
+    }
+  }
+
+  @media (min-width: 1279px) {
+    .header {
+        padding-bottom: 56px;
+    }
+  }

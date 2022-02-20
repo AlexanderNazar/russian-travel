@@ -6,3 +6,11 @@
     height: 46px;
     margin-bottom: 32px;
 }
+
+@media (min-width: 767px) {
+    .place__website {
+        margin: 0;
+        align-self: end;
+        justify-self: start;
+    }
+  }
