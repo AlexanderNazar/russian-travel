@@ -1,4 +1,4 @@
-.place__websit_url-heading {
+.place__website_url-heading {
     font-size: 12px;
     line-height: 12px;
     font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 767px) {
-    .place__websit_url-heading {
+    .place__website_url-heading {
         align-self: start;
     }
   }
