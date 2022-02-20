@@ -40,7 +40,7 @@
 
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-@import url(../blocks/places/__places.css);
+@import url(../blocks/places/places.css);
 
 @import url(../blocks/place/place.css);
 
