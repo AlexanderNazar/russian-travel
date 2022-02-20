@@ -7,7 +7,7 @@
 
 @media (min-width: 767px) {
     .place__image {
-        width: 100%;    
+        width: 100%;
         position: static;
         margin: 0;
     }
