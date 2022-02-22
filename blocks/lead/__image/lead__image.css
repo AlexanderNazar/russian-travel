@@ -1,20 +1,17 @@
 .lead__image {
-    width: calc(100% + 32px);
-    position: relative;
-    left: -16px;
+    width: 100%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1023px) {
     .lead__image {
-        width: calc(100% + 48px);
-        position: relative;
-        left: -24px;
+        display: flex;
+        max-width: 928px;
+        margin: 0 auto;
         }
   }
 
-  @media (min-width: 1023px) {
+@media (min-width: 1279px) {
     .lead__image {
-        width: 100%;
-        position: static;
+        max-width: 984px;
         }
   }

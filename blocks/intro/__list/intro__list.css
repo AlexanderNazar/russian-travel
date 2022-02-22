@@ -3,5 +3,26 @@
     line-height: 18px;
     font-style: normal;
     font-weight: 700;
-    margin: 0;
+    margin: 0 16px 0;
+    padding: 0;
+    list-style-type: none;
 }
+
+@media (min-width: 767px) {
+    .intro__list {
+        margin: 0 24px 0;
+        }
+  }
+
+@media (min-width: 1023px) {
+    .intro__list {
+        max-width: 928px;
+        margin: 0 auto 0;
+        }
+  }
+
+@media (min-width: 1279px) {
+    .intro__list {
+        max-width: 984px;
+        }
+  }

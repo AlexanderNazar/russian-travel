@@ -3,9 +3,15 @@
     line-height: 20px;
     font-style: normal;
     font-weight: 400;
-    margin: 0 0 8px 18px;
+    margin-left: 18px;
     text-decoration: none;
     color: white;
+    transition: opacity .1s linear;
+}
+
+.header__lang-link:hover {
+    opacity: .5;
+    cursor: url('../../../image/Pointer.svg'), pointer;
 }
 
 @media (min-width: 767px) {
