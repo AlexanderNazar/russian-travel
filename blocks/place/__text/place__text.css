@@ -1,0 +1,9 @@
+.place__text {
+    margin: 0 16px 0;
+}
+
+@media (min-width: 767px) {
+    .place__text {
+        margin: 0;
+    }
+}

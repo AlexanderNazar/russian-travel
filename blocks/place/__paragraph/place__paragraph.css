@@ -11,7 +11,8 @@
 }
 
 @media (min-width: 1023px) {
-    .place__paragraphe {
+    .place__paragraph {
         font-size: 18px;
+        margin: 0 0 26px;
     }
-  }
+}

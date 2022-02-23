@@ -11,16 +11,16 @@
         min-height: 52px;
         padding: 28px 24px 48px;
     }
-  }
+}
 
-  @media (min-width: 1023px) {
+@media (min-width: 1023px) {
     .header {
         padding: 28px 48px 48px;
     }
-  }
+}
 
-  @media (min-width: 1279px) {
+@media (min-width: 1279px) {
     .header {
         padding: 28px 48px 56px;
     }
-  }
+}
