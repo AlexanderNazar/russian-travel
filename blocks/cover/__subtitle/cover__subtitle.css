@@ -11,9 +11,13 @@
     justify-self: center;
 }
 
-.cover__subtitle:hover {
+/*.cover__subtitle:hover {
     cursor: url('../../../../image/Pointer.svg'), pointer;
 }
+
+При отключении эффекта наведения курсор принимает свой дефолтный вид, т.к. текст находится слоем выше. 
+По моему выглядит не гармонично.
+*/
 
 @media (min-width: 767px) {
     .cover__subtitle {

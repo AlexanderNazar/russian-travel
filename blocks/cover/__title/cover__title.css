@@ -12,9 +12,13 @@
     max-width: 288px;
 }
 
-.cover__title:hover {
+/*.cover__title:hover {
     cursor: url('../../../../image/Pointer.svg'), pointer;
 }
+
+При отключении эффекта наведения курсор принимает свой дефолтный вид, т.к. текст находится слоем выше. 
+По моему выглядит не гармонично.
+*/
 
 @media (min-width: 767px) {
     .cover__title {
