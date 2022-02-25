@@ -14,13 +14,13 @@
 
 @media (min-width: 767px) {
     .intro__text {
-        margin: 0 24px 33px;
+        margin: 0 0 33px;
     }
 }
 
 @media (min-width: 1023px) {
     .intro__text {
-        margin: 0 auto 33px;
+        margin: 0 0 33px;
         display: grid;
         grid-template-columns: 690px 1fr;
         max-width: 928px;
